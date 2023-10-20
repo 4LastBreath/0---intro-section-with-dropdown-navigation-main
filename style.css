@@ -372,10 +372,12 @@ a:focus-visible {
     gap: var(--size-500);
     transition: 0.3s ease;
     margin-left: 0;
+    visibility: hidden;
   }
 
   .primary-nav.active {
     margin-right: 0;
+    visibility: visible;
   }
 
   .nav-bg {
