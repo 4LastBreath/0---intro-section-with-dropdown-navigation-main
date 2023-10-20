@@ -462,7 +462,7 @@ a:focus-visible {
   }
 
   .section.content {
-    padding: var(--size-900) var(--size-100) var(--size-600) var(--size-100);
+    padding: var(--size-500) var(--size-100) var(--size-300) var(--size-100);
     align-items: center;
     max-width: 600px;
   }
