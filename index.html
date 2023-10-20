@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+
+        <div class="nav-bg"></div>
+        <figure class="logo">
+            <a href="#">
+                <img src="./images/logo.svg" alt="logo snap">
+            </a>
+        </figure>
+
+    <nav class="primary-nav">
+
+        <button class="btn-close"></button>
+
+        <ul class="primary-nav_list">
+            
+                
+
+                <li id="features">
+                    <a href="#">
+                        Features
+                        <img src="./images/icon-arrow-down.svg" alt="" class="features-arrow">
+                    </a>
+                    
+                    <ul class="dropdown" id="features-dropdown">
+                        <li><img src="./images/icon-todo.svg" alt=""><a href="#">Todo List</a></li>
+                        <li><img src="./images/icon-calendar.svg" alt=""><a href="#">Calendar</a></li>
+                        <li><img src="./images/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+                        <li><img src="./images/icon-planning.svg" alt=""><a href="#">Planning</a></li>
+                    </ul>
+                </li>
+                <li id="compagny">
+                    <a href="#">
+                        Compagny
+                        <img src="./images/icon-arrow-down.svg" class="compagny-arrow" alt="">
+                    </a>
+                    
+                    <ul class="dropdown" id="compagny-dropdown">
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+        </ul>
+
+
+        <ul class="login_list">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+
+    </nav>
+
+        <button class="btn-hamburger"></button>
+        
+
+
+
+    </header>
+    <main>
+        <section class="section content">
+
+            <div class="content-container">
+                <h1>Make remote work</h1>
+
+                <p>Get your team in sync, no matter your location. Streamline processes, 
+                create team rituals, and watch productivity soar.</p>
+
+                <button class="btn-learn">Learn more</button>
+            </div>
+
+            <div class="logo-container">
+                <figure><img src="./images/client-databiz.svg" alt="logo databiz"></figure>
+                <figure><img src="./images/client-audiophile.svg" alt="logo audiophile"></figure>
+                <figure><img src="./images/client-meet.svg" alt="logo meet"></figure>
+                <figure><img src="./images/client-maker.svg" alt="logo maker"></figure>     
+            </div>
+
+        </section>
+
+        <section class="section image">
+                <img src="./images/image-hero-desktop.png" alt="" class="img-hero-desktop">
+                <img src="./images/image-hero-mobile.png" alt="" class="img-hero-mobile">
+        </section>
+  
+        
+    
+
+    
+        
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
